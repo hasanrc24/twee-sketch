@@ -5,7 +5,6 @@ import ProjectNav from '../../components/Project/ProjectNav';
 import ex1 from '/public/images/project/exterior/1.jpg';
 import ex2 from '/public/images/project/exterior/2.jpg';
 import ex3 from '/public/images/project/exterior/3.jpg';
-import ex4 from '/public/images/project/exterior/4.jpg';
 import ex5 from '/public/images/project/exterior/5.jpg';
 
 const project = () => {
@@ -33,18 +32,11 @@ const project = () => {
             placement: 'ml-auto',
         },
         {
-            image: ex4,
-            title: 'AR Residence',
-            button: 'view',
-            link: '',
-            placement: 'mr-auto',
-        },
-        {
             image: ex5,
             title: 'Sadik Residence',
             button: 'view',
             link: '',
-            placement: 'ml-auto',
+            placement: 'mr-auto',
         }
         
     ]
@@ -61,7 +53,7 @@ const project = () => {
                             <div className="text-center">
                                 <div className="border-2 h-[171px] w-[320px] md:h-[171px] md:w-[350] m-auto overflow-hidden"><Image className='' src={data.image} alt="" height={185} width={350}/></div>
                                 <h2 className='text-xl font-semibold'>{data.title}</h2>
-                                <button className='bg-[#63421F] px-6 my-2 border border-[#5c5959] hover:bg-[#7e5830] duration-200'><a href='https://www.behance.net/tweesketch' rel='noreferrer' target='_blank'>{data.button}</a></button>
+                                <button className='bg-[#000]/[25%] px-6 my-2 border border-[#eee8e8] hover:bg-[#000]/[50%] duration-200'><a href='https://www.behance.net/tweesketch' rel='noreferrer' target='_blank'>{data.button}</a></button>
                             </div>
                         </div>
                     })

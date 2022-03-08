@@ -3,10 +3,10 @@ import React from 'react';
 
 const Body = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mt-5 md:mt-16 text-[#b4afaf]'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mt-5 md:mt-16 text-white'>
             <div className='text-center'>
-                <h1 className='text-white text-2xl md:text-3xl font-semibold'>ARCHITECTURE</h1>
-                <button className='text-xl bg-[#63421F] px-5 my-2 border border-[#5c5959] hover:bg-[#7e5830] duration-200'><Link href='/architecture'>service</Link></button>
+                <h1 className='text-white text-xl md:text-2xl'>ARCHITECTURE</h1>
+                <button className='text-xl bg-[#000]/[25%] px-5 my-2 border border-[#eee8e8] hover:bg-[#000]/[50%] duration-200'><Link href='/architecture'>service</Link></button>
                 <p className=' md:w-[55%] m-auto'>architecture is not any subject to read. it&apos a lifestyle to lead</p>
             </div>
             <div>
@@ -16,8 +16,8 @@ const Body = () => {
                 </p>
             </div>
             <div className='text-center'>
-                <h1 className='text-white text-2xl md:text-3xl font-semibold'>BLOG</h1>
-                <button className='text-xl bg-[#63421F] px-5 my-2 border border-[#5c5959] hover:bg-[#7e5830] duration-200'><Link href='/learn'>recent</Link></button>
+                <h1 className='text-white text-xl md:text-2xl'>BLOG</h1>
+                <button className='text-xl bg-[#000]/[25%] px-5 my-2 border border-[#eee8e8] hover:bg-[#000]/[50%] duration-200'><Link href='/learn'>recent</Link></button>
                 <p className='md:w-[55%] m-auto'>The place to share our ideas. Through these blogs our interaction will be more useful</p>
             </div>
             <div>
@@ -27,8 +27,8 @@ const Body = () => {
                 </p>
             </div>
             <div className='text-center'>
-                <h1 className='text-white text-2xl md:text-3xl font-semibold'>COURSE</h1>
-                <button className='text-xl bg-[#63421F] px-5 my-2 border border-[#5c5959] hover:bg-[#7e5830] duration-200'><Link href='/learn/course'>recent</Link></button>
+                <h1 className='text-white text-xl md:text-2xl'>COURSE</h1>
+                <button className='text-xl bg-[#000]/[25%] px-5 my-2 border border-[#eee8e8] hover:bg-[#000]/[50%] duration-200'><Link href='/learn/course'>recent</Link></button>
                 <p className='md:w-[55%] m-auto'>The way to enlighten you with our knowledge. Our courses are for those who are enthausiastic to get prepared in our fields.</p>
             </div>
             <div>

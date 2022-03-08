@@ -2,10 +2,10 @@ import React from 'react';
 
 const ArchiService = () => {
     return (
-        <div className='bg-[#C3986B] py-4 grid md:grid-cols-3 gap-6 uppercase'>
+        <div className=' py-8 grid md:grid-cols-3 gap-6 uppercase'>
             <div className="md:col-span-2">
-                <h1 className='text-center md:text-left px-5 text-white text-2xl font-semibold'>service</h1>
-                <div className="text-sm md:text-base font-semibold p-5">
+                <h1 className='text-center md:text-left px-5 text-[#C3996B] text-2xl font-semibold'>service</h1>
+                <div className="text-sm md:text-base font-semibold p-5 text-white">
                     <p>- plan (residence, restaurants, cafe, shop etc.) <br />
                         - single function design <br />
                         - interior design <br />
@@ -31,8 +31,8 @@ const ArchiService = () => {
                 </div>
             </div>
             <div className="">
-                <h1 className='text-center md:text-left px-5 text-white text-2xl font-semibold'>speciality</h1>
-                <div className="p-5 text-xs md:text-sm">
+                <h1 className='text-center md:text-left px-5 text-[#C3996B] text-2xl font-semibold'>speciality</h1>
+                <div className="p-5 text-xs md:text-sm text-white">
                     <p className='pb-4'>srchitecture in a small space or place interior with raw materials as well as low cost interior and exterior with client&apos
                         psychological satisfaction provides best designs within client&apos ability
                     </p>

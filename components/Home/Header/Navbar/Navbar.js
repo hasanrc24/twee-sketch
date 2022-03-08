@@ -11,19 +11,6 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
     const router = useRouter();
 
-    // let routes;
-    // if(router.pathname == "/learn"){
-    //     return (routes = "/learn");
-    // }
-    // else if(router.pathname == "/learn/academic"){
-    //     return (routes = "/learn/academic");
-    // }
-    // else if(router.pathname == "/learn/course"){
-    //     return (routes = "/learn/course");
-    // }
-
-    // const routes = "/learn/course" || "/learn/academic" || "/learn";
-
     return (
         <>
             <nav>
@@ -69,7 +56,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <div onClick={()=>setOpen(!open)} className={`text-center my-4  font-semibold text-[#F6931B] cursor-pointer ${!open && 'hidden'} md:block`}>
+                    <div onClick={()=>setOpen(!open)} className={`text-center my-4  font-semibold text-[#C3996B] cursor-pointer ${!open && 'hidden'} md:block`}>
                         <a href='#footer'>Contact us</a>
                     </div>
                 </div>

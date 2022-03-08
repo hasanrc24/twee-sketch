@@ -7,13 +7,13 @@ const ProjectNav = () => {
     return (
         <div className='ml-10 mt-10 font-semibold text-[#A28259]'>
             <ul className='flex gap-4'>
-                <li className={`hover:text-[#F6931B] duration-100 ${router.pathname == "/project" && "text-[#F6931B]"}`}>
+                <li className={`hover:border-b-2 hover:border-b-[#A28259] ${router.pathname == "/project" && " border-b-2 border-b-[#A28259]"}`}>
                     <Link href="/project">Exterior</Link>
                 </li>
-                <li className={`hover:text-[#F6931B] duration-100 ${router.pathname == "/project/interior" && "text-[#F6931B]"}`}>
+                <li className={`hover:border-b-2 hover:border-b-[#A28259] ${router.pathname == "/project/interior" && "border-b-2 border-b-[#A28259]"}`}>
                     <Link href="/project/interior">Interior</Link>
                 </li>
-                <li className={`hover:text-[#F6931B] duration-100 ${router.pathname == "/project/other" && "text-[#F6931B]"}`}>
+                <li className={`hover:border-b-2 hover:border-b-[#A28259] ${router.pathname == "/project/other" && "border-b-2 border-b-[#A28259]"}`}>
                     <Link href="/project/other">Other</Link>
                 </li>
             </ul>

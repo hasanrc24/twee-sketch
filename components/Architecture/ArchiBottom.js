@@ -20,7 +20,7 @@ import Image from 'next/image';
 const ArchiBottom = () => {
     return (
         <div className='text-center m-auto'>
-            <h1 className='text-white text-2xl'>Software use</h1>
+            <h1 className='text-white mt-10 text-2xl'>Software use</h1>
             <hr className='w-[80%] m-auto my-5' />
             <div className="flex flex-col space-y-3">
                 <div className="flex justify-center gap-2">

@@ -20,13 +20,13 @@ const crew = () => {
         {
             image: crew6,
             name: 'Abdus Sakur Rifat',
-            designation: 'Architectural Designer',
+            designation: 'Designer (Architecture)',
             position: ''
         },
         {
             image: crew1,
             name: 'Abdullah Al Mamun',
-            designation: 'Architectural Designer',
+            designation: 'Designer (Architecture)',
             position: 'md:mr-auto'
         },
         {
@@ -60,7 +60,7 @@ const crew = () => {
                                 <div className=" m-auto overflow-hidden">
                                     <Image src={data.image} alt='person'  />
                                 </div>
-                                <h2 className='text-[#695540] font-semibold'>{data.name}</h2>
+                                <h2 className='text-[#C3996B] font-semibold'>{data.name}</h2>
                                 <span className='text-white text-sm'>{data.designation}</span>
                         </div>
                     })
