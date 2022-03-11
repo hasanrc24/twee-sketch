@@ -4,6 +4,8 @@ import miniLogo from '/public/images/mini-logo.png';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
+
+    const year = new Date().getFullYear();
     return (
         <div className='bg-black/[15%] mt-8' id='footer'>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 md:pt-12">
@@ -25,6 +27,7 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/tweesketch" rel='noreferrer' target="_blank"><FaLinkedinIn className='text-[#C3996B] text-3xl md:text-4xl' /></a>
                 <a href="https://www.youtube.com/channel/UC9cBQhXZba21ia90qPJ0Yvg" rel='noreferrer' target="_blank"><FaYoutube className='text-[#C3996B] text-3xl md:text-4xl' /></a>
             </div>
+            <p className='text-center text-white -mt-3 pb-5 text-sm'>&copy; Twee Sketch, All rights reserved {year} | Developed by <span className='text-blue-400'><a href='https://www.linkedin.com/in/hasanrc24/' rel='noreferrer' target='_blank'>Md Hasan</a></span></p>
         </div>
     );
 };
