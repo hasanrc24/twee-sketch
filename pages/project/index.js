@@ -53,7 +53,7 @@ const project = () => {
                             <div className="text-center">
                                 <div className="border-2 h-[171px] w-[320px] md:h-[171px] md:w-[350] m-auto overflow-hidden"><Image className='' src={data.image} alt="" height={185} width={350}/></div>
                                 <h2 className='text-xl font-semibold'>{data.title}</h2>
-                                <button className='bg-[#000]/[25%] scale-0 px-6 my-2 border border-[#eee8e8] hover:bg-[#000]/[50%] hover:scale-100 duration-400'>
+                                <button className='bg-[#000]/[25%] px-6 my-2 border border-[#eee8e8] hover:bg-[#000]/[50%]duration-200'>
                                     <a href='https://www.behance.net/tweesketch' rel='noreferrer' target='_blank'>{data.button}</a>
                                 </button>
                             </div>
